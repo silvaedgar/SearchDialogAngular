@@ -1,0 +1,14 @@
+
+<div class="container" style="width:60%; margin: auto; margin-top: 2rem;">
+  <mat-card style="text-align: center;" >
+    <h3>Searching Material Angular Using Dialog</h3>
+    <h4> Press one button</h4>
+    <mat-button-toggle-group>
+      <mat-button-toggle  (click) ="OpenDialog('fruits')">Fruits</mat-button-toggle>
+      <mat-button-toggle  (click) ="OpenDialog('colors')">Colors</mat-button-toggle>
+      <mat-button-toggle  (click) ="OpenDialog('nations')">Nations</mat-button-toggle>
+    </mat-button-toggle-group>
+    <p style="margin-top: 2rem;">Chosen value is {{ selection }}</p>
+  </mat-card>
+
+</div>
