@@ -1,6 +1,9 @@
-# Searchmodal
+# Search Dialog Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11. 
+Program of search making use of Dialog of Angular Material. Different elements with a single dialog
+
+This program shows how to search for data in different lists with a single dialog of material angular. Contains 2 components dialog-examples and search. dialog-examples component show the form where you choose from which list you want select item calling the dialog and received the item selected. The search component is the dialog component of angular material. Displays the selected list
 
 ## Development server
 
